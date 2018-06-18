@@ -1,4 +1,4 @@
-module.exports = [
+export const posts = [
   {
     id: 126,
     title: 'The beginning of an idea',

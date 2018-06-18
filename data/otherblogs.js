@@ -1,4 +1,4 @@
-module.exports = [
+export const blogs = [
   {
     id: 1,
     blogTitle: 'Wilber',

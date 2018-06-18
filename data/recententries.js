@@ -1,4 +1,4 @@
-module.exports = [
+export const recent = [
   {
     id: 1,
     name: 'A warm wind',

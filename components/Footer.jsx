@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Footer = props => {
+const Footer = (props) => {
   return (
     <div className='footer-wrapper'>
-      <span className='copyright'>{props.copyright}</span>
-      <span className='author'>{props.author}</span>
+      <span className='copyright'>{props.content.copyright}</span>
+      <span className='author'>{props.content.author}</span>
     </div>
   )
 }
