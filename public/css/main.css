@@ -1,4 +1,16 @@
+.blog-container {
+  background-image: url("../images/web.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 250px 250px;
+}
 
+.blogHeader {
+  background-image: url("../images/spider.png");
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+  background-position: center 147px;
+}
 
 .flex-container {
   display: flex;
@@ -27,10 +39,12 @@ h1 {
 h2 {
   font-size: 1.8em;
   padding-left: 3rem;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 1.5em;
+  font-weight: 400;
 }
 
 .footer {
