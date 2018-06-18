@@ -2,7 +2,7 @@ const React = require('react')
 
 function Header (props) {
   return (
-    <h3>{props.title}</h3>
+    <h1>{props.title}</h1>
   )
 }
 
