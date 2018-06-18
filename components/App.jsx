@@ -20,11 +20,6 @@ const App = (props) => {
     <div className='app'>
       <Header content={head} />
       <OtherBlogs content={blogs} />
-      {/* <OtherBlog />
-      <Posts />
-      <Post />
-      <RecentEntries />
-      <RecentEntry /> */}
       <Footer content={foot} />
     </div>
   )
