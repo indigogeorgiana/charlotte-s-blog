@@ -3,7 +3,7 @@ import React from 'react'
 const Header = (props) => {
   return (
     <div className='header-wrapper'>
-      <a href={props.content.link}><h1>{props.content.title}</h1></a>
+      <a href={props.head.link}>{props.head.title}</a>
     </div>
   )
 }

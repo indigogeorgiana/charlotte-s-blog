@@ -1,17 +1,19 @@
 import React from 'react'
-import blogs from '../data/otherblogs.js'
+import otherBlogs from '../data/otherblogs.js'
 import OtherBlog from './OtherBlog.jsx'
 
-const OtherBlogs = (props) => {
+const OtherBlogs = props => {
   return (
-    <div className="blogs-container">
+    <div className='otherBlogs'>
       <h2>Other Blogs</h2>
-      <div className="blogs">
-        blogs.map(blog => {
-          return <OtherBlog key={blogs.content.id} />
+      {
+        otherBlogs.map(blog => {
+          return <OtherBlog
+            key={blog.id}
+            title={blog.blogTitle}
+            link={blog.link} />
         })
-        }
-      </div>
+      }
     </div>
   )
 }
