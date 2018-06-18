@@ -1,13 +1,11 @@
 import React from 'react'
-import Header from 'header'
+import head from '../../data/header.js'
+import Header from './Header.jsx'
 
-
-
-
-function App (props) {
-  return (
-    <div className="container"
-  )
-}
+const App = () => (
+  <div className='container'>
+    <Header head = {head} />
+  </div>
+)
 
 export default App

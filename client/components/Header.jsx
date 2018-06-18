@@ -2,11 +2,9 @@ import React from 'react'
 
 const Header = props => {
   return (
-    <a href={props.link}> {props.title}</a>
-
-
-
-
+    <div>
+      <a href={props.head.link}>{props.head.title}</a>
+    </div>
   )
 }
 export default Header
