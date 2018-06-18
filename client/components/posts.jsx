@@ -1,4 +1,4 @@
-const React = require('react')
+import React from 'react'
 
 const Posts = props => {
   return (
@@ -29,7 +29,7 @@ const postTemplate = (props) => {
   )
 }
 
-module.exports = postTemplate
+export default postTemplate
 
 const posts = [
   {

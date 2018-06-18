@@ -7,8 +7,8 @@ import OtherBlogs from './other-blogs.jsx'
 const App = (props) => (
   <div>
     <Header title="Charlotte's Web Log" link='/'/>
-    <OtherBlogs /><br/>
-    <Posts /><br/>
+    <div><OtherBlogs /><br/></div>
+    <div><Posts /><br/></div>
     <Footer copyright="1980 " author='E. B. White'/>
   </div>
 )
