@@ -1,6 +1,6 @@
 import React from 'react'
 import Post from './Post'
-import submissions from '../../data/posts'
+import submissions from '../data/posts'
 
 const Header = props => {
   return (
