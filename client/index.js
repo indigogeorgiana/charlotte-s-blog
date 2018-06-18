@@ -18,8 +18,8 @@ const entries = require('../data/recent-entries.js')
 ReactDOM.render(
   <div className="blog-container">
     <Header title={header.title} />
-    <div className='row'>
-      <div className="three columns">
+    <div className='flex-container'>
+      <div className="flex-item aside">
         <h2>Other Blogs</h2>
         {blogs.map(blog => {
           return (
@@ -27,14 +27,14 @@ ReactDOM.render(
           )
         })}
       </div>
-      <div className="six columns">
+      <div className="flex-item middle">
         {posts.map(function (post) {
           return <Post key={post.id} id={post.id} title={post.title} date={post.date} commentCount={post.commentCount} paragraphs={post.paragraphs}/>
         }
         )
         }
       </div>
-      <div className="three columns">
+      <div className="flex-item aside">
         <h2>Recent Entries</h2>
         {entries.map(entry => {
           return (
