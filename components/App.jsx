@@ -1,28 +1,23 @@
 import React from 'react'
-
+import head from '../../data/header.js'
 import Header from './Header.jsx'
-import Footer from './Footer.jsx'
 import OtherBlogs from './OtherBlogs.jsx'
-// import OtherBlog from './OtherBlog.jsx'
-// import Posts from './Posts.jsx'
-// import Post from './Post.jsx'
-// import RecentEntries from './RecentEntries.jsx'
-// import RecentEntry from './RecentEntry.jsx'
+import blogs from '../../data/other-blogs.js'
+import Posts from './Posts.jsx'
+import post from '../../data/posts'
+import RecentEntries from './RecentEntries.jsx'
+import entries from '../../data/recent-entries'
+import Footer from './Footer.jsx'
+import footer from '../../data/footer'
 
-import {head} from '../data/header.js'
-import {foot} from '../data/footer.js'
-import {blogs} from '../data/otherblogs.js'
-// import {posts} from '../data/posts.js'
-// import {recententries} from '../data/recententries.js'
-
-const App = (props) => {
-  return (
-    <div className='app'>
-      <Header content={head} />
-      <OtherBlogs content={blogs} />
-      <Footer content={foot} />
-    </div>
-  )
-}
+const App = () => (
+  <div className='container'>
+    <Header head = {head} />
+    <OtherBlogs blogs = {blogs}/>
+    <Posts post = {post} />
+    <RecentEntries entries = {entries} />
+    <Footer footer = {footer} />
+  </div>
+)
 
 export default App
