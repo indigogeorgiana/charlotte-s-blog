@@ -12,14 +12,6 @@ const Posts = props => {
   )
 }
 
-const Paragraphs = props => {
-  return (
-    <div>
-      <span> {props.paragraphs}</span> <br/>
-    </div>
-  )
-}
-
 const postTemplate = (props) => {
   return (
     <div className='post-temp'>
