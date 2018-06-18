@@ -1,6 +1,6 @@
 const React = require('react')
 
-function Posts (props) {
+function Post (props) {
   return (
 
     <div className='posts'>
@@ -13,4 +13,4 @@ function Posts (props) {
   )
 }
 
-export default Posts
+export default Post
