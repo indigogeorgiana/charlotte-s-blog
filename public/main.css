@@ -4,6 +4,12 @@
   border-style: solid red 20px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
 .header{
   text-align: center;
   background-origin: flex 5px;
@@ -12,3 +18,9 @@
   background-color: teal;
   padding: 50px;
 }
+
+.blog {
+  margin: 1rem;
+  color: teal
+}
+

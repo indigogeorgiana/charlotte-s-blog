@@ -2,7 +2,9 @@ import React from 'react'
 
 const OtherBlog = props => {
   return (
-    <a href={props.blogs.link}>{props.blogs.blogTitle}</a>
+    <div className='blog'>
+      <a href={props.link}>{props.title}</a>
+    </div>
   )
 }
 export default OtherBlog
