@@ -7,10 +7,9 @@ const OtherBlogs = (props) => {
     <div className="blogs-container">
       <h2>Other Blogs</h2>
       <div className="blogs">
-        {
-          blogs.map( => {
-            return <OtherBlog key={blogs.content.id} />
-          })
+        blogs.map(blog => {
+          return <OtherBlog key={blogs.content.id} />
+        })
         }
       </div>
     </div>
