@@ -2,7 +2,11 @@ const React = require('react')
 
 function Header (props) {
   return (
-    <h1>{props.title}</h1>
+
+    <div>
+      <img src="/images/charlottes-web.png"/>
+      <h1>{props.title}</h1>
+    </div>
   )
 }
 

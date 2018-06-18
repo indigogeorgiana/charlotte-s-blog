@@ -4,10 +4,9 @@ function Post (props) {
   return (
 
     <div className='posts'>
-      <p>{props.id}</p>
-      <p>{props.title}</p>
+      <h3>{props.title}</h3>
       <p>{props.date}</p>
-      <p>{props.commentCount}</p>
+      <p>Comments: {props.commentCount}</p>
       <p>{props.paragraphs}</p>
     </div>
   )
