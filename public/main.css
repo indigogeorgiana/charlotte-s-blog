@@ -4,3 +4,11 @@
   border-style: solid red 20px;
 }
 
+.header{
+  text-align: center;
+  background-origin: flex 5px;
+  width: 100%;
+  height: 100px;
+  background-color: teal;
+  padding: 50px;
+}
