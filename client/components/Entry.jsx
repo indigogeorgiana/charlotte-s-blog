@@ -3,7 +3,7 @@ const React = require('react')
 function Entry (props) {
   return (
     <div className="recentEntries">
-      <a href="{props.link}"><p>{props.name}</p></a>
+      <li className="spiderBullet"><a href="{props.link}">{props.name}</a></li>
     </div>
   )
 }

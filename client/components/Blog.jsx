@@ -3,7 +3,7 @@ const React = require('react')
 function Blog (props) {
   return (
     <div className="otherBlogs">
-      <a href="{props.link}"><p>{props.blogTitle}</p></a>
+      <li className="spiderBullet"><a href="{props.link}">{props.blogTitle}</a></li>
     </div>
   )
 }

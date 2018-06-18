@@ -21,6 +21,16 @@
   width: 30%;
 }
 
+.spiderBullet {
+  background: url("../images/bulletspider.png");
+  background-repeat: no-repeat;
+  list-style-type: none;
+}
+
+.spiderBullet a {
+  padding-left: 18px;
+}
+
 .middle {
   flex-grow: 2;
 }
