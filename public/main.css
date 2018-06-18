@@ -1,3 +1,6 @@
+*{
+  border: 1px solid none;
+}
 #root {
   margin  : 0px;
 }
@@ -22,7 +25,7 @@
 
 .post-temp {
   float    : left;
-  width    : 52%;
+  width    : 51.5%;
   padding  : 5%;
   top      : 0;
   height   : 80%;

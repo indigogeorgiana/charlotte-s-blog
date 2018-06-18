@@ -10,21 +10,21 @@ const RecentEnts = props => {
   )
 }
 
-const RecEntsTemplage = (props) => {
+const RecEntsTemplate = (props) => {
   return (
     <div className='recnts-temp'>
       {
         recents.map(ents => {
           return <RecentEnts
             key={ents.id}
-            blogTitle={ents.name}
+            name={ents.name}
             link={ents.link}/>
         })
       }
     </div>
   )
 }
-export default RecEntsTemplage
+export default RecEntsTemplate
 
 const recents = [
   {
