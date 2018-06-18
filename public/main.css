@@ -10,7 +10,7 @@
   justify-content: center
 }
 
-.header{
+.header, .footer{
   text-align: center;
   background-origin: flex 5px;
   width: 100%;
@@ -19,14 +19,16 @@
   padding: 50px;
 }
 
-.blog a {
+.blog a, .recentEntry a {
   color: teal;
 }
 
-.blog {
+.blog, .recentEntry{
   margin: 1rem;
 }
+
 
 .posts {
   width: 50%
 }
+

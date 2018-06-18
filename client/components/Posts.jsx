@@ -1,19 +1,19 @@
 import React from 'react'
 import Post from './Post'
-import entries from '../../data/posts'
+import submissions from '../../data/posts'
 
 const Header = props => {
   return (
     <div className='posts'>
       <h2>Posts</h2>
       {
-        entries.map(entry => {
+        submissions.map(submission => {
           return <Post
-            key={entry.id}
-            title={entry.title}
-            date={entry.date}
-            commentCount={entry.commentCount}
-            paragraph={entry.paragraphs} />
+            key={submission.id}
+            title={submission.title}
+            date={submission.date}
+            commentCount={submission.commentCount}
+            paragraph={submission.paragraphs} />
         })
       }
 

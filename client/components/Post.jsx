@@ -2,7 +2,7 @@ import React from 'react'
 
 const Post = props => {
   return (
-    <div className='post-entry'>
+    <div className='post-subm'>
       <div className='post-title'>
         {props.title}
       </div>

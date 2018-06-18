@@ -5,12 +5,18 @@ import OtherBlogs from './OtherBlogs.jsx'
 import blogs from '../../data/other-blogs.js'
 import Posts from './Posts.jsx'
 import post from '../../data/posts'
+import RecentEntries from './RecentEntries.jsx'
+import entries from '../../data/recent-entries'
+import Footer from './Footer.jsx'
+import footer from '../../data/footer'
 
 const App = () => (
   <div className='container'>
     <Header head = {head} />
     <OtherBlogs blogs = {blogs}/>
     <Posts post = {post} />
+    <RecentEntries entries = {entries} />
+    <Footer footer = {footer} />
   </div>
 )
 
