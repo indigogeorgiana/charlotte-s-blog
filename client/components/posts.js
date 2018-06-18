@@ -1,4 +1,37 @@
-module.exports = [
+const React = require('react')
+
+const Posts = props => {
+  return (
+    <div>
+      <span> {props.id}</span> <br/>
+      <span> {props.title}</span> <br/>
+      <span> {props.date}</span><br/>
+      <span> {props.commentCount}</span> <br/>
+      <span> {props.paragraphs}</span> <br/>
+    </div>
+  )
+}
+
+const postTemplate = (props) => {
+  return (
+    <div className='post-temp'>
+      {
+        arr.map(posts => {
+          return <Posts
+            key={posts.id}
+            title={posts.title}
+            date={posts.date}
+            commentCount={posts.commentCount}
+            paragraphs={posts.paragraphs[0]}/>
+        })
+      }
+    </div>
+  )
+}
+
+module.exports = postTemplate
+
+const arr = [
   {
     id: 126,
     title: 'The beginning of an idea',
