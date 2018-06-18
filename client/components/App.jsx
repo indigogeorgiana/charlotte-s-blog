@@ -1,19 +1,19 @@
 import React from 'react'
 import Header from './Header.jsx'
-// import OtherBlog from './OtherBlog.jsx'
+import Footer from './Footer.jsx'
+
 import OtherBlogs from './OtherBlogs.jsx'
 
 // data
 import head from '../../data/header'
-// import blogTitle from '../../data/other-blogs'
+import footerData from '../../data/footer'
 
 const App = () => (
   <div className='container'>
     <Header head = {head} />
     <OtherBlogs />
-
+    <Footer footerData = {footerData} />
   </div>
-
 )
 
 export default App
