@@ -1,14 +1,25 @@
 h1, h2, h3 {
   font-family: 'Spirax', cursive;
+  
 }
-
 
 h1 {
   text-align: center;
 
 }
 
+h2 {
+  padding-left: 3rem;
+}
+
 .footer {
   text-align: center;
 }
 
+.otherBlogs {
+padding-left: 3rem;
+}
+
+.recentEntries {
+  padding-left: 4rem;
+}
