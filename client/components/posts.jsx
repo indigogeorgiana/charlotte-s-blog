@@ -12,17 +12,25 @@ const Posts = props => {
   )
 }
 
+const Paragraphs = props => {
+  return (
+    <div>
+      <span> {props.paragraphs}</span> <br/>
+    </div>
+  )
+}
+
 const postTemplate = (props) => {
   return (
     <div className='post-temp'>
       {
-        arr.map(posts => {
+        posts.map(post => {
           return <Posts
-            key={posts.id}
-            title={posts.title}
-            date={posts.date}
-            commentCount={posts.commentCount}
-            paragraphs={posts.paragraphs[0]}/>
+            key={post.id}
+            title={post.title}
+            date={post.date}
+            commentCount={post.commentCount}
+            paragraphs={post.paragraphs}/>
         })
       }
     </div>
@@ -31,7 +39,7 @@ const postTemplate = (props) => {
 
 module.exports = postTemplate
 
-const arr = [
+const posts = [
   {
     id: 126,
     title: 'The beginning of an idea',
