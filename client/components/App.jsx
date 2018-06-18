@@ -4,6 +4,7 @@ import Footer from './Footer.jsx'
 
 import OtherBlogs from './OtherBlogs.jsx'
 import Posts from './Posts.jsx'
+import RecentEntries from './RecentEntries.jsx'
 
 // data
 import head from '../../data/header'
@@ -14,6 +15,7 @@ const App = () => (
     <Header head = {head} />
     <OtherBlogs />
     <Posts />
+    <RecentEntries />
     <Footer footerData = {footerData} />
   </div>
 )
