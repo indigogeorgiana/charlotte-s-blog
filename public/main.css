@@ -19,8 +19,11 @@
   padding: 50px;
 }
 
+.blog a {
+  color: teal;
+}
+
 .blog {
   margin: 1rem;
-  color: teal
 }
 
