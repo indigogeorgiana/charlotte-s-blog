@@ -1,15 +1,10 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
+import App from './components/App'
+import ReactDOM from 'react-dom'
+import React from 'react'
 
-function App (props) {
-  return (
-    <h1>{props.message.text}</h1>
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <App />,
+    document.getElementById('root')
   )
-}
-
-const message = {text: "Future home of Charlotte's web"}
-
-ReactDOM.render(
-  <App message={message} />,
-  document.getElementById('root')
-)
+})
