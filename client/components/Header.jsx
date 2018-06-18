@@ -3,7 +3,7 @@ const React = require('react')
 const Header = props => {
   return (
     <div className='header'>
-      <a href={props.head.title}><h1>{props.head.title}</h1></a>
+      <a href={props.head.link}><h1>{props.head.title}</h1></a>
     </div>
   )
 }
