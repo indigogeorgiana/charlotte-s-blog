@@ -1,14 +1,37 @@
+#root {
+  margin  : 0px;
+}
+
+.header {
+  text-align : center; 
+  text-decoration: none;
+  font-size: 2em; 
+  height   : 10%;
+  width    : 100%;
+  margin   : 0;
+  color    : blue;
+  background-color: navy;
+}
+
 .blog-temp {
   float    : left;
-  width    : 30%;
+  width    : 15%;
+  padding  : 7% 2%;
 
 }
 
 .post-temp {
   float    : left;
-  width    : 60%;
+  width    : 52%;
+  padding  : 5%;
   top      : 0;
   height   : 80%;
+}
+
+.recnts-temp {
+  float    : right;
+  width    : 15%;
+  padding  : 4% 2%;
 }
 
 .clear {
@@ -16,7 +39,9 @@
 }
 .footer {
   width    : 100%;
-  height   : 10%;
+  color    : blue;
+  padding  : 1.5%;
+  background-color: navy;
   text-align: center;
   bottom   : 0;
   left     : 0;

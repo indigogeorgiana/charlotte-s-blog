@@ -1,4 +1,32 @@
-module.exports = [
+import React from 'react'
+
+const RecentEnts = props => {
+  return (
+    <div>
+      <span>{props.id}</span><br/>
+      <span>{props.name}</span><br/>
+      <span>{props.link}</span><br/>
+    </div>
+  )
+}
+
+const RecEntsTemplage = (props) => {
+  return (
+    <div className='recnts-temp'>
+      {
+        recents.map(ents => {
+          return <RecentEnts
+            key={ents.id}
+            blogTitle={ents.name}
+            link={ents.link}/>
+        })
+      }
+    </div>
+  )
+}
+export default RecEntsTemplage
+
+const recents = [
   {
     id: 1,
     name: 'A warm wind',
