@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from './header.jsx'
-import Footer from './footer.jsx'
-import Posts from './posts.jsx'
-import OtherBlogs from './other-blogs.jsx'
-import RecEntsTemplate from './recent-entries.jsx'
+import Header from './Header'
+import Footer from './Footer'
+import Posts from './Posts'
+import OtherBlogs from './OtherBlogs'
+import RecEntsTemplate from './RecentEntries'
 
 const App = (props) => (
   <div className="bodyDiv">
